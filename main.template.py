@@ -38,8 +38,7 @@ spark_conf = SparkConf().setAll([
 
   ("spark.sql.adaptive.enabled", "true"),
   ("spark.sql.adaptive.skewJoin.enabled", "true"),
-  ("spark.sql.autoBroadcastJoinThreshold", "-1"),
-  ("spark.sql.execution.arrow.enabled", "true")
+  ("spark.sql.autoBroadcastJoinThreshold", "-1")
 ])
 
 sc = SparkContext(conf=spark_conf)
