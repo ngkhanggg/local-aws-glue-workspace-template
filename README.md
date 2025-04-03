@@ -1,4 +1,4 @@
-# Local AWS Glue Workspace
+# Local AWS Glue Workspace Template
 
 A pre-configured local development environment for AWS Glue.
 This workspace is ideal for developing and debugging AWS Glue scripts before deployment.
